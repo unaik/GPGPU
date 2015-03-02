@@ -1,0 +1,15 @@
+Particle System
+Authors: Neeraj Jain & Ujwal Naik
+Date - 10/09/2012
+
+Global work Size - 1024*1024
+Local Work Size - 256
+
+Files Included:
+1. vverlet.cpp
+2. vverlet1.cl
+3. vverlet.h
+4. attr.ppm
+5. wood.ppm
+6. cpp_ocl
+
