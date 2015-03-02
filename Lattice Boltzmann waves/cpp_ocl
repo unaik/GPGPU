@@ -1,0 +1,12 @@
+mydir=$HOME/NVIDIA_GPU_Computing_SDK
+/usr/bin/g++ -O5 -DUNIX					\
+-L $mydir/OpenCL/common/lib/Linux64			\
+-L $mydir/OpenCL/common/lib				\
+-L $mydir/shared/lib					\
+-L $mydir/shared/lib/linux				\
+-L /usr/lib64						\
+-I $mydir/OpenCL/common/inc				\
+-I $mydir/shared/inc					\
+$1.cpp -Wno-write-strings				\
+-lX11 -lGL -lGLU -lglut -lGLEW_x86_64 -lm -lXmu		\
+-lOpenCL -loclUtil_x86_64 -lshrutil_x86_64 -o $1
